@@ -10,7 +10,7 @@ let services = [
         headline: "Additional services designed for the needs of campers",
         text: "Travelling often means that you dont have time to organise excursions along your route. EasyCamper takes care of that!",
         linktext: "Discover the Guided Tours and additional services that you can link to your structure"
-    }, 
+    },
     {
         illustration: "https://dazzling-squirrel-77a63d.netlify.app/imgs/illustrations/destination.png",
         headline: "Free online showcase with promotion in Italy and abroad",
@@ -18,3 +18,17 @@ let services = [
         linktext: "Easycamper creates your showcase. Discover the terms and conditions for joining the Network"
     },
 ]
+
+// let serviesSection = document.querySelector(".services")
+services.forEach((service) => {
+
+    document.querySelector(".services").innerHTML += `
+
+<section class="cards">
+<img src="${service.illustration}">
+<h1 class="hero-headline">${service.headline}</h1>
+<p class="hero-text">${service.text}</p>
+</section>
+`
+
+})
