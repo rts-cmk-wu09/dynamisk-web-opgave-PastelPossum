@@ -11,6 +11,19 @@ heroImg.src = hero.image;
 heroSection.append(heroImg)
 
 document.querySelector(".hero").innerHTML += `
+<section class="navigation">
+<i class="fa-light fa-cube"></i>
+<div class="menu">
+<i class="fa-solid fa-chevron-down"></i>
+<div class="circle">
+<i class="fa-solid fa-user"></i>
+</div>
+</div>
+</section>
 
-
+<section class="box-over">
+<h1 class="hero-headline">${hero.headline}</h1>
+<p class="hero-text">${hero.copy}</p>
+<button class="hero-button> <i class="fa-thin fa-globe"></i> Explore </button>
+</section>
 `
