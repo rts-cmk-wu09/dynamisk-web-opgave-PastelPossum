@@ -14,9 +14,9 @@ document.querySelector(".hero").innerHTML += `
 <section class="navigation">
 <i class="fa-light fa-cube"></i>
 <div class="menu">
-<i class="fa-solid fa-chevron-down"></i>
+<i class="fa-solid fa-chevron-down fa-lg"></i>
 <div class="circle">
-<i class="fa-solid fa-user"></i>
+<i class="fa-solid fa-user fa-xl"></i>
 </div>
 </div>
 </section>
@@ -24,6 +24,6 @@ document.querySelector(".hero").innerHTML += `
 <section class="box-over">
 <h1 class="hero-headline">${hero.headline}</h1>
 <p class="hero-text">${hero.copy}</p>
-<button class="hero-button> <i class="fa-thin fa-globe"></i> Explore </button>
+<button class="hero-btn"> <i class="fa-thin fa-globe"></i> Explore </button>
 </section>
 `
