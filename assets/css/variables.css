@@ -1,0 +1,10 @@
+:root {
+
+    --orange: rgba(247, 128, 101, 1);
+    --grey: rgba(0, 0, 0, 0.5);
+    --footer: rgba(247, 247, 247, 1);
+
+    --main-font: font-family: 'Merriweather', serif;
+    --second-font: font-family: 'Montserrat', sans-serif;
+
+}

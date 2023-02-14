@@ -1,7 +1,4 @@
 
-
-
-
 let services = [
     {
         illustration: "https://dazzling-squirrel-77a63d.netlify.app/imgs/illustrations/exploring.png",
