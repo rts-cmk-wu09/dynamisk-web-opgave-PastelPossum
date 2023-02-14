@@ -24,7 +24,7 @@ services.forEach((service) => {
 
     document.querySelector(".services").innerHTML += `
 
-<section class="cards">
+<section class="service-cards">
 <img src="${service.illustration}">
 <h1 class="hero-headline">${service.headline}</h1>
 <p class="hero-text">${service.text}</p>

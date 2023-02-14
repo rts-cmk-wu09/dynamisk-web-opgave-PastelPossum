@@ -23,3 +23,15 @@ let facilities = {
         },
     ]
 }
+
+facilities.forEach((facility) => {
+
+    document.querySelector(".facilities").innerHTML += `
+
+    <section class="fac-cards">
+    
+    </section>
+
+`
+
+})
