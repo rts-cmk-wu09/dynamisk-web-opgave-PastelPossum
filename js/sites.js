@@ -21,17 +21,6 @@ let sites = {
     ]
 }
 
-// let sitesSection = document.querySelector(".sites");
-
-// let siteHeadline = document.createElement("h3");
-// siteHeadline.classList.add("sites-h")
-// siteHeadline.innerHTML = sites.headline
-// sitesSection.append(siteHeadline)
-
-// let siteText = document.createElement("p")
-// siteText.classList.add("sites-p")
-// siteText.innerHTML = sites.text
-// sitesSection.append(siteText)
 
 document.querySelector(".sites").innerHTML += `
 
@@ -43,15 +32,15 @@ document.querySelector(".sites").innerHTML += `
 
 `
 
-sites.forEach((site) => {
+// sites.forEach((site) => {
 
-    document.querySelector(".sites").innerHTML += `
+//     document.querySelector(".sites").innerHTML += `
     
-    <section class="site-cards">
-    // IMG
-    </section>
+//     <section class="site-cards">
+//     // IMG
+//     </section>
     
-    `
+//     `
 
 
-})
+// })

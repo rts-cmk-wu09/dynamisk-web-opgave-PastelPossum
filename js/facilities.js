@@ -24,14 +24,14 @@ let facilities = {
     ]
 }
 
-facilities.forEach((facility) => {
+// // facilities.forEach((facility) => {
 
-    document.querySelector(".facilities").innerHTML += `
+// //     document.querySelector(".facilities").innerHTML += `
 
-    <section class="fac-cards">
+// //     <section class="fac-cards">
     
-    </section>
+// //     </section>
 
-`
+// `
 
-})
+// })

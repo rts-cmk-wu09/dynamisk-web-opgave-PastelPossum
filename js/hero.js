@@ -10,7 +10,7 @@ let heroImg = document.createElement("img");
 heroImg.src = hero.image;
 heroSection.append(heroImg)
 
-ument.querySelector(".hero").innerHTML += `
+document.querySelector(".hero").innerHTML += `
 <section class="navigation">
 <i class="fa-light fa-cube"></i>
 <div class="menu">
