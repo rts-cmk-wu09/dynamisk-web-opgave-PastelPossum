@@ -24,14 +24,28 @@ let facilities = {
     ]
 }
 
-// // facilities.forEach((facility) => {
+let facSection = document.querySelector(".facilities");
 
-// //     document.querySelector(".facilities").innerHTML += `
+let facHeadline = document.createElement("h3")
+facHeadline.classList.add("fac-headline")
+facHeadline.textContent = facilities.headline
+facSection.append(facHeadline)
 
-// //     <section class="fac-cards">
+let facWrapper = document.createElement("div")
+facWrapper.classList.add("fac-wrapper")
+facSection.append(facWrapper)
+
+facilities.options.forEach((facility) => {
+
+    document.querySelector(".fac-wrapper").innerHTML += `
     
-// //     </section>
+    <section class="fac-card">
+    <img src="${facility.icon}">
+    <h3 class="fac-header">${facility.headline}</h3>
+    <p class="fac-text">${facility.text}</p>
+    <p class="fac-link"><a href="#">Show me more</a></p>
+    </section>
+    
+    `
 
-// `
-
-// })
+})
