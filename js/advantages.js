@@ -18,18 +18,19 @@ let advantages = [
 
 let adSection = document.querySelector(".advantages");
 let adHeadline = document.createElement("h4")
-adHeadline.classList.add("ad-headline")
+adHeadline.classList.add("headline")
 adHeadline.innerHTML = "Our Advantages"
 adSection.append(adHeadline)
+
 
 advantages.forEach((advantage) => {
 
     document.querySelector(".advantages").innerHTML += `
     
-    <section class="ad-cards"> 
+    <section class="cards"> 
     <img src="${advantage.icon}">
-    <h4 class="ad-h-card">${advantage.headline}</h4>
-    <p class="ad-text">${advantage.text}</p>
+    <h4 class="card-h">${advantage.headline}</h4>
+    <p class="card-text">${advantage.text}</p>
     </section>
 
     `
