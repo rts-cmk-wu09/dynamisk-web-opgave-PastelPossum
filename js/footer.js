@@ -45,5 +45,21 @@ footerSection.classList.add(".footer")
 let footerAside = document.createElement("section")
 footerAside.classList.add("footer-aside")
 
+let footerHead = document.createElement("h4")
+footerHead.classList.add("footer-headline")
+footerHead.textContent = footer.upperHead
+
+let footerText = document.createElement("p")
+footerText.classList.add("footer-text")
+footerText.textContent = footer.bottomText
+
 body.append(footerSection)
 footerSection.append(footerAside)
+footerAside.append(footerHead)
+footerAside.append(footerText)
+
+footer.links.forEach((foot) => {
+
+    
+
+})
