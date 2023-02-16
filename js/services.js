@@ -26,7 +26,7 @@ services.forEach((service) => {
 
 <section class="service-cards">
 <img src="${service.illustration}">
-<h1 class="service-headline">${service.headline}</h1>
+<h2 class="service-headline">${service.headline}</h2>
 <p class="service-text">${service.text}</p>
 <p class="service-link"><a href="#">${service.linktext}</a></p>
 </section>
