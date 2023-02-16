@@ -22,25 +22,45 @@ let sites = {
 }
 
 
-document.querySelector(".sites").innerHTML += `
+let siteAside = document.querySelector(".sites")
 
-    <section class="site-aside">
-    <h3 class="sites-h">${sites.headline}</h3>
-    <p class="sites-p">${sites.text}</p>
-    <button class="sites-btn"><img src="${sites.btnicon}">Start</button>
-    </section>
+let siteHead = document.createElement("h3")
+siteHead.classList.add("side-head")
+siteHead.textContent = sites.headline
+
+let siteText = document.createElement("p")
+siteText.classList.add("site-text")
+siteText.textContent = sites.text
+
+let siteImg = document.createElement("img")
+siteImg.src = sites.btnicon
+
+let siteBtn = document.createElement("button")
+siteBtn.classList.add("site-btn")
+siteBtn.textContent = "Start"
+
+let siteCards = document.createElement("div")
+siteCards.classList.add("site-cards")
+
+
+
+siteAside.append(siteBtn)
+siteBtn.append(siteImg)
+siteAside.append(siteHead)
+siteAside.append(siteText)
+siteAside.append(siteCards)
+
+
+sites.places.forEach((site) => {
+
+document.querySelector(".site-cards").innerHTML += `
+
+<img src="${site.img}">
+<h3 class="site-name">${site.name}</h3>
+<p class="site-city">${site.city}</p>
+<p class="site-card-link"><a href="#">View the site</a></p>
 
 `
 
-// sites.forEach((site) => {
+})
 
-//     document.querySelector(".sites").innerHTML += `
-    
-//     <section class="site-cards">
-//     // IMG
-//     </section>
-    
-//     `
-
-
-// })
