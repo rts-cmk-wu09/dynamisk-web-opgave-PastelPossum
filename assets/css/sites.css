@@ -1,0 +1,51 @@
+.sites {
+
+    display: flex;
+
+}
+
+.site-aside {
+
+    width: 300px;
+}
+
+.side-head {
+
+    font-size: 40px;
+
+}
+
+.site-text {
+
+    font-size: 20px;
+    color: var(--grey);
+
+}
+
+.site-btn {
+
+    background-color: var(--orange);
+    color: white;
+
+    border: none;
+
+    font-weight: bold;
+    font-size: 18px;
+
+    padding: 2% 8%;
+
+}
+
+.site-btn img {
+
+padding-left: 10px;
+
+}
+
+/* ---------------- */
+
+.site-cards {
+
+    display: flex;
+    
+}

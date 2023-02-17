@@ -1,0 +1,47 @@
+.hero {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ .hero img {
+
+    width: 1440px;
+    
+}
+
+.circle {
+
+    color: white;
+    background-color: var(--orange);
+
+    border-radius: 50%;
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.menu {
+
+    background-color: white;
+
+}
+
+.hero-btn {
+
+    background-color: var(--orange);
+    color: white;
+
+    border: none;
+
+}
+
+.box-over {
+
+    background-color: white;
+
+}
+

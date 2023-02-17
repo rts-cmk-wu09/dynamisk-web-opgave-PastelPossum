@@ -1,0 +1,59 @@
+.services {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.service-cards {
+
+    width: 430px;
+
+    margin-left: 2%;
+
+}
+
+.service-headline {
+
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+
+}
+
+.service-text {
+
+    font-size: 18px;
+
+    color: var(--grey);
+
+}
+
+.service-link {
+
+    font-weight: bold;
+    font-size: 18px;
+
+    width: 400px;
+
+}
+
+.service-text, .service-link {
+
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.service-link > a {
+
+    text-decoration: none;
+
+    color: var(--orange);
+
+}
+
+.service-cards * {
+
+    margin-top: 10%;
+
+}

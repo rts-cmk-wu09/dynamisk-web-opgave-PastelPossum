@@ -1,0 +1,57 @@
+.advantages {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.headline {
+
+    font-size: 40px;
+
+    margin-top: 5%;
+    margin-left: 5%;
+
+    width: 500px;
+
+}
+
+.card-h {
+
+    font-size: 22px;
+
+}
+
+.card-text {
+
+    font-size: 18px;
+    color: var(--grey);
+
+}
+
+.cards {
+
+    display: flex;
+    flex-direction: column;
+
+    width: 600px;
+
+    margin-top: 10%;
+    margin-right: 11%;
+
+}
+
+.cards img {
+
+    width: 32px;
+    margin-top: 10%;
+
+}
+
+.cards img, .card-h {
+
+    margin-bottom: 10%;
+
+}
+
