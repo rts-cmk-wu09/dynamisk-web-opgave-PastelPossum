@@ -1,0 +1,35 @@
+.headline {
+
+    font-size: 40px;
+
+}
+
+.card-h {
+
+    font-size: 22px;
+
+}
+
+.card-text {
+
+    font-size: 18px;
+    color: var(--grey);
+
+}
+
+.cards {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 400px;
+
+}
+
+.cards img {
+
+    width: 32px;
+
+}
+
