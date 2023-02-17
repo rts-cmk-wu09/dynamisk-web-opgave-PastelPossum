@@ -41,7 +41,7 @@ let footer = {
 let body = document.body
 
 let footerSection = document.createElement("section")
-footerSection.classList.add(".footer")
+footerSection.classList.add("footer")
 
 let footerAside = document.createElement("section")
 footerAside.classList.add("footer-aside")
