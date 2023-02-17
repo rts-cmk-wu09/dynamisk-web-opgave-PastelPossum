@@ -22,7 +22,10 @@ let sites = {
 }
 
 
-let siteAside = document.querySelector(".sites")
+let siteSection = document.querySelector(".sites")
+
+let siteAside = document.createElement("aside")
+siteAside.classList.add("site-aside")
 
 let siteHead = document.createElement("h3")
 siteHead.classList.add("side-head")
@@ -43,12 +46,12 @@ let siteCards = document.createElement("div")
 siteCards.classList.add("site-cards")
 
 
-
-siteAside.append(siteBtn)
-siteBtn.append(siteImg)
+siteSection.append(siteAside)
 siteAside.append(siteHead)
 siteAside.append(siteText)
-siteAside.append(siteCards)
+siteAside.append(siteBtn)
+siteBtn.append(siteImg)
+siteSection.append(siteCards)
 
 
 sites.places.forEach((site) => {
